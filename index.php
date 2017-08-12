@@ -1,6 +1,6 @@
 <?php
 session_start();
-$link = mysqli_connect('localhost', 'irinakuznetsov');
+$link = mysqli_connect('localhost', 'password');
 if (!$link)
 {
 	$output = 'Unable to connect to the database server.';
@@ -14,7 +14,7 @@ if (!$link)
  include 'output.html.php';
  exit();
  }
-if (!mysqli_select_db($link, 'my_irinakuznetsov'))
+if (!mysqli_select_db($link, 'database'))
 {
 	$output = 'Unable to locate the database';
 	include 'output.html.php';

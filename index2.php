@@ -71,7 +71,7 @@ if (isset($_POST['submit']))  {
 
 }
 
-$link = mysqli_connect('localhost', 'irinakuznetsov');
+$link = mysqli_connect('localhost', 'password');
 if (!$link)
 {
 	$output = 'Unable to connect to the database server.';
@@ -85,7 +85,7 @@ if (!mysqli_set_charset($link, 'utf8'))
 	include 'output.html.php';
 	exit();
 }
-if (!mysqli_select_db($link, 'my_irinakuznetsov'))
+if (!mysqli_select_db($link, 'database'))
 {
 	$output = 'Unable to locate the database';
 	include 'output.html.php';
