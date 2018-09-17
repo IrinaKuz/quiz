@@ -1,6 +1,6 @@
 <?php
 session_start();
-$link = mysqli_connect('localhost', 'password');
+$link = mysqli_connect('***', '***');
 if (!$link)
 {
 	$output = 'Unable to connect to the database server.';
