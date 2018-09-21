@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <title>Legal Terms Quiz</title>
+    <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="content-type"
         content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -13,7 +14,7 @@
  
 	<form action="quiz_action.php" method="post">
         
-        <h2>What is
+        <h2>6/10 What is
           <?php print htmlspecialchars($terms2_1[0]['term'], ENT_QUOTES, 'UTF-8'); ?>?
         </h2>
         
@@ -29,7 +30,7 @@
         		<input type="hidden" name ="correct_ans2_1" 
         				value=" <?php echo $terms2_1[0]['id'] ?>" />
         </div>   
-            <h2>What is
+            <h2>7/10 What is
           <?php echo htmlspecialchars($terms2_2[0]['term'], ENT_QUOTES, 'UTF-8'); ?>?
         </h2> 
        
@@ -46,7 +47,7 @@
         				value=" <?php echo $terms2_2[0]['id'] ?>" />
         </div>    
         
-        <h2>What is
+        <h2>8/10 What is
           <?php echo htmlspecialchars($terms2_3[0]['term'], ENT_QUOTES, 'UTF-8'); ?>?
         </h2>
         
@@ -63,7 +64,7 @@
         				value=" <?php echo $terms2_3[0]['id'] ?>" />
          </div>   
          
-         <h2>What is
+         <h2>9/10 What is
           <?php echo htmlspecialchars($terms2_4[0]['term'], ENT_QUOTES, 'UTF-8'); ?>?
         </h2>
         
@@ -80,7 +81,7 @@
         				value=" <?php echo $terms2_4[0]['id'] ?>" />
          </div>   
             
-            <h2>What is
+            <h2>10/10 What is
           		<?php echo htmlspecialchars($terms2_5[0]['term'], ENT_QUOTES, 'UTF-8'); ?>?
         	</h2>
         
